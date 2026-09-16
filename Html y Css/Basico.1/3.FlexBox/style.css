@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(37, 36, 36);
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: rgb(167, 162, 162);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.uno {
+    width: 200px;
+    height: 300px;
+    background-color: lime;
+    border-radius: 10px;
+}
+.dos {
+    width: 500px;
+    height: 400px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+.tres {
+    width: 200px;
+    height: 180px;
+    background-color: aquamarine;
+    border-radius: 10px;
+}

@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+a { /*Define el color y la decoración de los enlaces*/
+    text-decoration: none;
+    color : white;
+}
+
+
+header { /*Da formato al encabezado de la página*/
+    min-height: 70px;
+    display: flex;
+    background: linear-gradient( to right, #0f2027, #203a43, #2c5364);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.logo { 
+    display: flex;
+    align-items: center;
+}
+
+
+.logo img { /*Refiere a la etiqueta img y le da tamaño y margen*/
+    height: 50px;
+    margin-right: 10px;
+}
+
+
+nav a { /*Define el grosor de la letra y agrega espacio alrededor de los enlaces.*/
+    font-weight: 600;
+    padding: 10px 10px;
+
+}
+
+
+nav a:hover { /*Es lo que pasa al pasar el mouse por encima de los links*/
+    background-color: gold;
+    border-radius: 5px;
+}
+
+@media (max-width: 620px) { /*Hace que la página sea responsive*/
+
+    header {
+        flex-direction: column;
+    }
+    nav {
+        padding: 10px 0px;
+    }
+}
