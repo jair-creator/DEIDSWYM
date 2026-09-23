@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    background: linear-gradient(to left, #051839, #1387b8);
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+}
+
+.contenedor .sub-contenedor {
+    width: 600px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px 15px;
+    box-shadow: 5px 5px 10px rgba(241, 241, 242, 0.582);
+}
+
+.contenedor .sub-contenedor .contenido {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 24px;
+    flex: auto;
+}
+
+.contenedor .sub-contenedor .contenido .icono {
+    margin-right: 10px;
+}
+
+.contenedor .sub-contenedor .contenido .mensaje .title {
+    background-color: #fff;
+    font-weight: bold;
+}
+
+.contenedor .sub-contenedor .actions {
+    background: none;
+    padding: 10px 0;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.contenedor .sub-contenedor .actions button {
+    background-color: #fff;
+    border: none;
+    padding: 15px;
+    min-width: 120px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.contenedor .sub-contenedor .actions .aceptar {
+    background: linear-gradient(to left, #051839, #1387b8) ;
+    color: #fff;
+}
+
+.contenedor .sub-contenedor .actions .aceptar:hover {
+    background: linear-gradient(to bottom, #051839, #1387b8) ;
+    color: #fff;
+}
+
+.contenedor .sub-contenedor .actions .cerrar {
+    border: solid 1px #b0c1e4;
+}
+
+.contenedor .sub-contenedor .actions .cerrar:hover {
+    background-color: #f50404a9;
+}
+
+@media (max-width: 680px) {
+    .contenedor .sub-contenedor {
+        width: 80%;
+    }
+
+    .contenedor .sub-contenedor .actions{
+        flex-direction: column;
+    }
+}
