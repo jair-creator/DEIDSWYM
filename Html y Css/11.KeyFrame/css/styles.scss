@@ -8,7 +8,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vH;
-    background: #1B1B1B;
+    background: #09b7ece2;
     .container{
         position: relative;
         width: 100%;
@@ -21,15 +21,15 @@ body{
                 position: relative;
                 min-width: 30px;
                 height: 30px;
-                background: #fff;
-                box-shadow: 0 0 0 10px #4fc3dc44,0 0 50px #705AFE,0 0 100px #4fc3dc;
+                background: #ed0404;
+                box-shadow: 0 0 0 10px #e8dd0475,0 0 50px #d38507,0 0 100px #db07cd;
                 margin: 0 4px;
                 border-radius: 50%;
                 animation:  animate 15s linear infinite;
                 animation-duration:calc(75s/var(--i));
                 &:nth-child(even){
                     background: #8c04fb;
-                    box-shadow:0 0 0 10px #31970f,0 0 50px #d4f903,0 0 100px #f700e3 ;
+                    box-shadow:0 0 0 10px #0638dade,0 0 50px #4b0cc8cf,0 0 100px #f700e3 ;
                 }
 
             }

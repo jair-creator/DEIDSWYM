@@ -9,7 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vH;
-  background: #1B1B1B;
+  background: rgba(9, 183, 236, 0.8862745098);
 }
 body .container {
   position: relative;
@@ -25,8 +25,8 @@ body .container .bubbles span {
   position: relative;
   min-width: 30px;
   height: 30px;
-  background: #fff;
-  box-shadow: 0 0 0 10px rgba(79, 195, 220, 0.2666666667), 0 0 50px #705AFE, 0 0 100px #4fc3dc;
+  background: #ed0404;
+  box-shadow: 0 0 0 10px rgba(232, 221, 4, 0.4588235294), 0 0 50px #d38507, 0 0 100px #db07cd;
   margin: 0 4px;
   border-radius: 50%;
   animation: animate 15s linear infinite;
@@ -34,7 +34,7 @@ body .container .bubbles span {
 }
 body .container .bubbles span:nth-child(even) {
   background: #8c04fb;
-  box-shadow: 0 0 0 10px #31970f, 0 0 50px #d4f903, 0 0 100px #f700e3;
+  box-shadow: 0 0 0 10px rgba(6, 56, 218, 0.8705882353), 0 0 50px rgba(75, 12, 200, 0.8117647059), 0 0 100px #f700e3;
 }
 
 @keyframes animate {
