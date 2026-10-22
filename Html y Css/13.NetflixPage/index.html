@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jair Pérez #21</title>
+    <link rel="stylesheet" href="Css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <header>
+            <a href="#" class="logo"><img src="Img/logo.png" alt="Netflix logo"></a>
+            <ul class="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">TV Shows</a></li>
+                <li><a href="#">Anime</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">Latest</a></li>
+                <li><a href="#">My List</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" placeholder="Search">
+                <button class="btnbuscar"><span class="material-icons">search</span></button>
+            </div>  
+        </header>
+        <section class="banner">
+            <img src="Img/Black clover.jpg" alt="Black clover bg" class="bg"> 
+            <span class="sombraIMG"></span>
+            <div class="content">
+                <img src="Img/netflixletrasblackclover.png" class="animeTitle">
+                <h4>
+                    <span>2017</span>
+                    <span><i>13+</i></span>
+                    <span>2 Temporadas</span>
+                    <span>Anime</span>
+                </h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, eaque doloremque in quis, vel tenetur harum omnis corporis reprehenderit sequi perferendis optio explicabo dolores minima labore reiciendis eveniet delectus consectetur?
+                </p>
+                <div class="buttons">
+                    <a href="#">Play</a>
+                    <a href="#">My List</a>
+                </div>
+            </div>
+            <a href="#" class="play" onclick="toggleVideo();"><img src="Img/play.png">Watch Trailer</a>
+        </section>
+        <section class="trailer">
+            <video src="Img/Black Clover TRÁILER.mp4" controls="true"></video>
+            <img src="Img/close.png" class="close" onclick="toggleVideo();">
+        </section>
+    </main>
+    <script>
+        function toggleVideo(){
+            const trailer= document.querySelector(".trailer");
+            const video= document.querySelector("video");
+            trailer.classList.toggle("active");
+            video.currentTime=0;
+            video.pause(); 
+
+        }
+    </script>
+</body>
+</html>
