@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jair Pérez #21</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+
+    <!-- Menu -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav_logo">
+                <img src="assets/img/carslogo.png" class="nav_logo-img" alt="Logo Cars">
+            </a>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link active-link">Home</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#about" class="nav_link">Personajes</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link">Reparto</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link">Acerca de</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link nav_link--login">Login</a>
+                    </li>
+                </ul>
+
+                <div class="nav_close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+            </div>
+
+            <div class="nav_toggle" id="nav-toggle">
+                <i class='bx bx-grid-alt'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home container" id="home">
+            <div class="swiper home-swiper">
+                <div class="swiper-wrapper">
+                    <section class="swiper-slide">
+                        <div class="home_content grid">
+                            <article class="content_burbuja">
+                                <img src="assets/img/mcqueen_hero.jpg" class="box" alt="Rayo McQueen">
+
+                                <div class="blob">
+                                    <img src="data:image/svg+xml;utf8,<svg viewBox='0 0 500 500' xmlns='http://www.w3.org/2000/svg'><defs><linearGradient id='grad1' x1='0%25' y1='0%25' x2='100%25' y2='100%25'><stop offset='0%25' stop-color='%23ff1e27' stop-opacity='0.85'/><stop offset='100%25' stop-color='%23ff8c00' stop-opacity='0.65'/></linearGradient></defs><path d='M428.5,316Q409,382,345.5,419.5Q282,457,215.5,435.5Q149,414,103,361.5Q57,309,69.5,240Q82,171,123.5,116Q165,61,237.5,60.5Q310,60,372.5,103Q435,146,441.5,198Q448,250,428.5,316Z' fill='url(%23grad1)'/></svg>" alt="Forma 1">
+                                </div>
+                                <div class="blob">
+                                    <img src="data:image/svg+xml;utf8,<svg viewBox='0 0 500 500' xmlns='http://www.w3.org/2000/svg'><defs><linearGradient id='grad2' x1='0%25' y1='0%25' x2='0%25' y2='100%25'><stop offset='0%25' stop-color='%23b31217' stop-opacity='0.8'/><stop offset='100%25' stop-color='%23f77737' stop-opacity='0.8'/></linearGradient></defs><path d='M410.5,310Q391,370,332,408.5Q273,447,208,429Q143,411,99.5,357Q56,303,66.5,235.5Q77,168,124,117.5Q171,67,243.5,63.5Q316,60,373,105Q430,150,430,200Q430,250,410.5,310Z' fill='url(%23grad2)'/></svg>" alt="Forma 2">
+                                </div>
+                            </article>
+
+                            <div class="home_data">
+                                <h3 class="home_subtitle">#LA PELÍCULA</h3>
+                                <h1 class="home_title">KACHOW <br> !!!</h1>
+                                <p class="home_description">
+                                    El novato estrella Rayo McQueen está decidido a ganar la Copa Pistón en su temporada de debut. Atravesando la legendaria Ruta 66, descubrirá que la vida es un viaje, no una línea de meta.
+                                </p>
+                                <div class="home_buttons">
+                                    <a href="#" class="button">Ver ahora</a>
+                                    <a href="#" class="button-link button--flex">
+                                        Tráiler <i class='bx bx-right-arrow-alt button__icon'></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categorias -->
+        <section class="section category" id="about">
+            <h2 class="section_title">Personajes</h2>
+
+            <div class="category_container container grid">
+                <div class="category_data">
+                    <div class="contentImgCate">
+                        <img src="assets/img/mcqueen_hero.jpg" class="category_img" alt="Rayo McQueen">
+                    </div>
+                    <h3 class="category_title">Rayo McQueen</h3>
+                    <p class="category_description">El auto de carreras novato número 95 patrocinado por Rust-eze.</p>
+                </div>
+
+                <div class="category_data">
+                    <div class="contentImgCate">
+                        <img src="assets/img/mate.jpg" class="category_img" alt="Mate">
+                    </div>
+                    <h3 class="category_title">Mate</h3>
+                    <p class="category_description">El remolque más confiable y mejor amigo de Radiador Springs.</p>
+                </div>
+
+                <div class="category_data">
+                    <div class="contentImgCate">
+                        <img src="assets/img/sally.jpg" class="category_img" alt="Sally Carrera">
+                    </div>
+                    <h3 class="category_title">Sally Carrera</h3>
+                    <p class="category_description">Porsche 911 abogada del pueblo y dueña del Motel Rueda Rueda.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Deja tu correo -->
+        <section class="section newsletter">
+            <div class="newsletter_container container">
+                <h2 class="section_title">Club de Pits</h2>
+                <p class="newsletter_description">
+                    Recibe noticias exclusivas de la Copa Pistón y eventos directamente a tu bandeja de entrada.
+                </p>
+
+                <form class="newsletter_form">
+                    <input type="text" placeholder="Introduce tu correo electrónico" class="newsletter_input">
+                    <button class="button">Suscribirse</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de pagina -->
+    <footer class="footer section">
+        <div class="footer_container container grid">
+            <div class="footer_content">
+                <a href="#" class="footer_logo">
+                    <img src="assets/img/carslogo.png" class="footer_logo-img" alt="Logo Cars">
+                </a>
+                <p class="footer_description">
+                    Siente la velocidad y la emoción en cada carrera de tu vida.
+                </p>
+                <div class="footer_social">
+                    <a href="#" class="footer_social-link"><i class='bx bxl-facebook'></i></a>
+                    <a href="#" class="footer_social-link"><i class='bx bxl-instagram-alt'></i></a>
+                    <a href="#" class="footer_social-link"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+
+            <div class="footer_content">
+                <h3 class="footer_title">Acerca de</h3>
+                <ul class="footer_links">
+                    <li><a href="#" class="footer_link">Soporte</a></li>
+                    <li><a href="#" class="footer_link">Características</a></li>
+                    <li><a href="#" class="footer_link">Novedades</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_content">
+                <h3 class="footer_title">Nuestros servicios</h3>
+                <ul class="footer_links">
+                    <li><a href="#" class="footer_link">Boletos</a></li>
+                    <li><a href="#" class="footer_link">Descuentos</a></li>
+                    <li><a href="#" class="footer_link">Pase de Pits</a></li>
+                </ul>
+            </div>
+
+            <div class="footer_content">
+                <h3 class="footer_title">Nuestra compañía</h3>
+                <ul class="footer_links">
+                    <li><a href="#" class="footer_link">Historia</a></li>
+                    <li><a href="#" class="footer_link">Sobre nosotros</a></li>
+                    <li><a href="#" class="footer_link">Copa Pistón</a></li>
+                </ul>
+            </div>
+
+            <img src="assets/img/adorno2_hq.png" class="footer_img-one" alt="Bandera">
+            <img src="assets/img/adorno1.png" class="footer_img-two" alt="Neumático">
+        </div>
+
+        <span class="footer_copy">&#169; Cars Movie Page</span>
+    </footer>
+
+    <!-- Script para animaciones suaves al bajar (ScrollReveal) y menú móvil -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        const sr = ScrollReveal({
+            origin: 'top',
+            distance: '60px',
+            duration: 2000,
+            delay: 200,
+            reset: false
+        });
+
+        sr.reveal('.home_data', {});
+        sr.reveal('.content_burbuja', { delay: 400 });
+        sr.reveal('.section_title', {});
+        sr.reveal('.category_data', { interval: 200 });
+        sr.reveal('.newsletter_container', {});
+        sr.reveal('.footer_content', { interval: 150 });
+        sr.reveal('.footer_img-one, .footer_img-two', { origin: 'bottom', delay: 400 });
+
+        const navMenu = document.getElementById('nav-menu'),
+              navToggle = document.getElementById('nav-toggle'),
+              navClose = document.getElementById('nav-close');
+
+        if(navToggle){
+            navToggle.addEventListener('click', () =>{
+                navMenu.style.top = '0';
+            });
+        }
+
+        if(navClose){
+            navClose.addEventListener('click', () =>{
+                navMenu.style.top = '-150%';
+            });
+        }
+    </script>
+</body>
+</html>
